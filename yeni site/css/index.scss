@@ -1,0 +1,39 @@
+.head{
+    .right{
+        
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            &:hover{
+                .dropdown-content{
+                    visibility: visible;
+                    top: 30px;
+                }
+            }
+            .dropbtn{
+                background: transparent;
+                font-weight: bold;
+                border: none;
+                
+            }
+            .dropdown-content{
+                transition: 1s all ease-in-out;
+               visibility: hidden;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 130px;
+                border: 1px solid;
+                background-color: #fff;
+                a{
+                    padding: 10px 0px  10px 5px;
+                    border-bottom: 1px solid;
+
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}

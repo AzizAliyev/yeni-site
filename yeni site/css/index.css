@@ -1,0 +1,36 @@
+.head .right .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.head .right .dropdown:hover .dropdown-content {
+  visibility: visible;
+  top: 30px;
+}
+
+.head .right .dropdown .dropbtn {
+  background: transparent;
+  font-weight: bold;
+  border: none;
+}
+
+.head .right .dropdown .dropdown-content {
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 130px;
+  border: 1px solid;
+  background-color: #fff;
+}
+
+.head .right .dropdown .dropdown-content a {
+  padding: 10px 0px  10px 5px;
+  border-bottom: 1px solid;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */
